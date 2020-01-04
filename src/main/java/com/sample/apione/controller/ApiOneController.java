@@ -1,4 +1,4 @@
-package com.sample.controller;
+package com.sample.apione.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-public class apiController {
+public class ApiOneController {
 
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     ResponseEntity<Map<String, String>> sample() {
